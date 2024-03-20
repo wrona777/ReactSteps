@@ -1,0 +1,33 @@
+
+body{
+    margin-top:20px;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.step {
+    display: inline-grid;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+    border: gray solid 8px;
+  
+}
+
+
+
+.step .step-title {
+    margin-top: 20px;
+    color: #000;
+    font-size: 20px;
+    font-weight: 500
+}
+
+
+.step.completed {
+    background-color: green;
+    border-color: greenyellow;
+    color: #fff
+}
+
